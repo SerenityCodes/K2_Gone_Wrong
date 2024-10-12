@@ -1,0 +1,30 @@
+.header {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: upper-center;
+    -unity-font-style: normal;
+    -unity-font: url("project://database/Assets/UI%20Elements/FallingSkyBlack-GYXA.otf?fileID=12800000&guid=a014dd48f3117b4dd9ee01e25d3755f9&type=3#FallingSkyBlack-GYXA");
+    -unity-font-definition: initial;
+}
+
+.button {
+    width: 220px;
+    align-items: auto;
+    align-self: center;
+    font-size: 20px;
+    height: 60px;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+    background-image: none;
+    margin-top: 50px;
+    padding-top: 0;
+    -unity-font: url("project://database/Assets/UI%20Elements/FallingSkyBlack-GYXA.otf?fileID=12800000&guid=a014dd48f3117b4dd9ee01e25d3755f9&type=3#FallingSkyBlack-GYXA");
+    -unity-font-definition: initial;
+}
+
+.button:hover {
+    scale: 1.1 1.1;
+    transition-duration: 0.35s;
+}

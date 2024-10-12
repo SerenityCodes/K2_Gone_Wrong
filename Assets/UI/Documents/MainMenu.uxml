@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Stylesheets/MenuStyle.uss?fileID=7433441132597879392&amp;guid=b1c53d013324cc04782bdf1fb4d51f0e&amp;type=3#MenuStyle" />
+    <ui:VisualElement name="MainMenu" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI/Space_Background.jpg?fileID=2800000&amp;guid=6a18feda4ae896e3598ae93ef6a1aa25&amp;type=3#Space_Background&quot;);">
+        <ui:Label text="Main Menu&#10;" name="Header" class="header" style="-unity-text-align: upper-center;" />
+        <ui:Button text="Play" name="SingleplayerButton" class="main-menu-button" />
+        <ui:Button text="Settings" name="SettingsButton" class="main-menu-button" />
+    </ui:VisualElement>
+</ui:UXML>

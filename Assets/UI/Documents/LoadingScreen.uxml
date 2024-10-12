@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Data/UI%20Toolkit/Stylesheets/MenuStyle.uss?fileID=7433441132597879392&amp;guid=b1c53d013324cc04782bdf1fb4d51f0e&amp;type=3#MenuStyle" />
+    <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Data/UI%20Toolkit/Space_Background.jpg?fileID=2800000&amp;guid=6a18feda4ae896e3598ae93ef6a1aa25&amp;type=3#Space_Background&quot;);">
+        <ui:Label tabindex="-1" text="Loading..." parse-escape-sequences="true" display-tooltip-when-elided="true" class="header" style="font-size: 50px; color: rgb(255, 255, 255); align-self: center; align-items: auto; align-content: auto; top: 20%;" />
+    </ui:VisualElement>
+</ui:UXML>

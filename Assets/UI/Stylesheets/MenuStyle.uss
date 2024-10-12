@@ -1,0 +1,56 @@
+.main-menu-button {
+    -unity-text-align: upper-center;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-image: url("project://database/Assets/Data/UI%20Toolkit/BtnDefault.png?fileID=2800000&guid=4c0f6239b7e9748cea2e276865817083&type=3#BtnDefault");
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    align-self: center;
+    width: 200px;
+    align-items: center;
+    transition-duration: 0.1s;
+    height: 55px;
+}
+
+.main-menu-button:hover {
+    -unity-text-align: upper-center;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-image: url("project://database/Assets/Data/UI%20Toolkit/BtnDefault.png?fileID=2800000&guid=4c0f6239b7e9748cea2e276865817083&type=3#BtnDefault");
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    align-self: center;
+    width: 205px;
+    align-items: center;
+    transition-duration: 0.1s;
+    height: 60px;
+}
+
+.text-field {
+    width: 380px;
+}
+
+.header {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.main-menu-button {
+    -unity-text-align: upper-center;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-image: url("project://database/Assets/Data/UI%20Toolkit/BtnDefault.png?fileID=2800000&guid=4c0f6239b7e9748cea2e276865817083&type=3#BtnDefault");
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    align-self: center;
+    width: 200px;
+    align-items: center;
+    transition-duration: 0.1s;
+    height: 55px;
+}

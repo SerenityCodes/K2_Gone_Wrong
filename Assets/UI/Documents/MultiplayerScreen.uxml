@@ -1,0 +1,13 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Data/UI%20Toolkit/Stylesheets/MenuStyle.uss?fileID=7433441132597879392&amp;guid=b1c53d013324cc04782bdf1fb4d51f0e&amp;type=3#MenuStyle" />
+    <engine:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Data/UI%20Toolkit/Space_Background.jpg?fileID=2800000&amp;guid=6a18feda4ae896e3598ae93ef6a1aa25&amp;type=3#Space_Background&quot;);">
+        <engine:Label text="Player Info" class="header" style="align-self: center;" />
+        <engine:TextField label="Name" placeholder-text="Player" name="PlayerName" class="main-menu-button" style="width: 380px; color: rgb(255, 255, 255); -unity-background-image-tint-color: rgb(255, 255, 255);" />
+        <engine:Label text="Connection Details&#10;" class="header" style="align-items: auto; align-self: center;" />
+        <engine:TextField label="Host IP" placeholder-text="filler text" name="IPField" class="main-menu-button" style="width: 380px;" />
+        <engine:TextField label="Host Port" placeholder-text="filler text" name="PortField" class="main-menu-button" style="width: 380px;" />
+        <engine:Button text="Join Game" name="JoinGameButton" class="main-menu-button" />
+        <engine:Button text="Host Game" name="HostGameButton" class="main-menu-button" />
+        <engine:Button text="Back&#10;" name="BackButton" class="main-menu-button" style="margin-top: 100px; margin-right: 100px; margin-bottom: 100px; margin-left: 100px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;" />
+    </engine:VisualElement>
+</engine:UXML>

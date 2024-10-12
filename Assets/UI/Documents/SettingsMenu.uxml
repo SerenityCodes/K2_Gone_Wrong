@@ -1,0 +1,7 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Data/UI%20Toolkit/Stylesheets/MenuStyle.uss?fileID=7433441132597879392&amp;guid=b1c53d013324cc04782bdf1fb4d51f0e&amp;type=3#MenuStyle" />
+    <engine:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Data/UI%20Toolkit/Space_Background.jpg?fileID=2800000&amp;guid=6a18feda4ae896e3598ae93ef6a1aa25&amp;type=3#Space_Background&quot;);">
+        <engine:Label text="Settings Menu" name="Label" class="header" style="flex-grow: 1; align-self: center;" />
+        <engine:Button text="Back" name="BackButton" class="main-menu-button" />
+    </engine:VisualElement>
+</engine:UXML>
