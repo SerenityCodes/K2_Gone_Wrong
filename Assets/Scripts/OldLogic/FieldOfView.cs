@@ -9,7 +9,7 @@ namespace DefaultNamespace
         public float radius;
         [Range(0, 360)] public float angle;
 
-        public GameObject targetReference;
+        private GameObject _targetReference;
         public LayerMask targetMask;
         public LayerMask obstacleMask;
 
@@ -17,7 +17,7 @@ namespace DefaultNamespace
 
         private void Start()
         {
-            targetReference = GameObject.FindGameObjectWithTag("Player");
+            _targetReference = GameObject.FindGameObjectWithTag("Player");
             StartCoroutine(FOVRoutine());
         }
 

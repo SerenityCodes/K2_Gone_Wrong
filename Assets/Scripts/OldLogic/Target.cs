@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 namespace DefaultNamespace
@@ -12,13 +13,15 @@ namespace DefaultNamespace
             health -= damage;
             if (health <= 0)
             {
-                Die();
+                StartCoroutine(Die());
             }
         }
 
-        void Die()
+        IEnumerator Die()
         {
             animator.SetTrigger("Die");
+            yield return new WaitForSeconds(0.5f);
+            animator.SetTrigger("Stop Walking");
             Destroy(gameObject);
         }
     }
